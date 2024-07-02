@@ -1,0 +1,29 @@
+{
+    "SaveImage": {
+      "input": {
+        "required": {
+          "images": [
+            "IMAGE"
+          ],
+          "filename_prefix": [
+            "STRING",
+            {
+              "default": "ComfyUI"
+            }
+          ]
+        },
+        "hidden": {
+          "prompt": "PROMPT",
+          "extra_pnginfo": "EXTRA_PNGINFO"
+        }
+      },
+      "output": [],
+      "output_is_list": [],
+      "output_name": [],
+      "name": "SaveImage",
+      "display_name": "Save Image",
+      "description": "",
+      "category": "image",
+      "output_node": true
+    }
+  }
